@@ -1,4 +1,5 @@
 # TALLER
+POR: KARLA FIGUEROA VELILLA (000577187) y SANTIAGO DUARTE CUETO (000570051)
 
 1.  **Verificación de peso de despegue**
     
