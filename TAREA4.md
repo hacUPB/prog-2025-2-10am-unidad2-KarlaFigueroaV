@@ -1,24 +1,20 @@
 # TAREA 1
 ```
-INICIO
-    suma = 0
-    contador = 0
-
-    LEER estatura
-
-    MIENTRAS estatura ≠ 0 HACER
-        suma ← suma + estatura
-        contador ← contador + 1
-        LEER estatura
-    FIN MIENTRAS
-
-    SI contador > 0 ENTONCES
-        promedio = suma / contador
-        ESCRIBIR "La estatura promedio es: ", promedio
-    SI NO
-        ESCRIBIR "No se ingresaron estaturas"
-    FIN SI
-FIN
-```
+Inicio
+    leer compra
+    leer cuotas
+    r = 0.02
+    si cuotas <= 0 entonces
+        escribir "numero de cuotas invalido"
+    sino
+        cuota = (compra + compra*r*cuotas) / cuotas
+        i = 1
+        mientras i <= cuotas hacer
+            Escribir "cuota ", i, ": ", cuota
+            i = i + 1
+        fin mientras
+    fin si
+Fin
+ ```
 ![DIAGRAMA](DIAGRAMATAREATARJETA.drawio.png)
 
